@@ -12,3 +12,17 @@ console.log(calculateArea(3, 1));
     // This should log 9 in part because we're 
     // only logging whole numbers.
 
+
+// *** The second practice is immutability ***
+// immutable data never changes, but you can make updates to the 
+// data with variable reassignment.
+
+var me = {
+    name : 'Levi',
+    age : 35,
+    status : 'married'
+};
+
+me.age = me.age + 4;
+console.log(me.age)
+
