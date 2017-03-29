@@ -26,7 +26,10 @@ var me = {
 me.age = me.age + 4;
 console.log(me.age)
 
+// *********************
+
 const name = "ted";
 var name = "tim";
 console.log(name)
 
+this will produce the following error - Uncaught SyntaxError: Identifier 'name' has already been declared
