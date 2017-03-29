@@ -32,4 +32,9 @@ const name = "ted";
 var name = "tim";
 console.log(name)
 
-this will produce the following error - Uncaught SyntaxError: Identifier 'name' has already been declared
+// This will produce the following error - Uncaught SyntaxError: Identifier 'name' has already been declared.
+// This happens because const cant be reassigned. The way to change it is to add to it like this.
+
+const name = {};
+name.his = "tom";
+console.log(name.his);
