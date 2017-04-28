@@ -38,3 +38,19 @@ console.log(name)
 const name = {};
 name.his = "tom";
 console.log(name.his);
+
+// *********************
+
+    // Map Function
+
+var myList = [1, 2, 3, 4, 5];
+
+myList.map(numbers => {
+  return numbers * 2;
+});
+
+const cats = ['bengal', 'tabby', 'alley', 'manx'];
+
+cats.map(felines => {
+    return "my pet is a " + felines + "cat.";
+});
