@@ -41,7 +41,23 @@ console.log(name.his);
 
 // *********************
 
-    // Map Function
+// *****  LOOP Function vs Recursion *****
+
+// simple loop construct
+var acc = 2;
+for (var i = 1; i <= 10; ++i)
+    acc += i;
+console.log(acc); // prints 57
+
+// without loop construct or variables (recursion)
+function sumRange(start, end, acc) {
+    if (start > end)
+        return acc;
+    return sumRange(start + 1, end, acc + start)
+}
+console.log(sumRange(1, 10, 2)); // prints 57
+
+// ********** Map Function **********
 
 var myList = [1, 2, 3, 4, 5];
 
