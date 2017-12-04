@@ -9,10 +9,8 @@ function makeBlue(e) {
   e.target.setAttribute('alt', 'blue');
 }
 
-const orange = (
-	<img onClick = {makeBlue}
-		src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
-		alt="orange" />
+const orange = ( <img onClick = {makeBlue} src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
+	alt="orange" />
 );
 
 ReactDOM.render(orange, document.getElementById('app'));
