@@ -70,3 +70,19 @@ const cats = ['bengal', 'tabby', 'alley', 'manx'];
 cats.map(felines => {
     return "my pet is a " + felines + "cat.";
 });
+********************************
+    // CLOSURES
+********************************
+
+(function(){
+    var outside = 'this can be reached from other locations';
+    
+    function inside(){
+        console.log(outside);
+    }
+
+    return inside()
+})();
+
+------------------------------
+
