@@ -9,6 +9,11 @@ function makeBlue(e) {
   e.target.setAttribute('alt', 'blue');
 }
 
+function makeRed(e) {
+  e.target.setAttribute('src', 'http://www.clipartmasters.com/clip-arts/29/red-square-clip-art-29530.png');
+  e.target.setAttribute('alt', 'red');
+}
+
 const orange = ( <img onClick = {makeBlue} src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
 	alt="orange" />
 );
