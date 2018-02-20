@@ -70,6 +70,15 @@ const cats = ['bengal', 'tabby', 'alley', 'manx'];
 cats.map(felines => {
     return "my pet is a " + felines + "cat.";
 });
+
+// *********** Filter **************
+
+var numbers = [1,2,3,4,5,6,7,8,9];
+
+numbers.filter(function(number){
+  return number > 3;
+});
+
 ********************************
     // CLOSURES
 ********************************
