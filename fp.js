@@ -39,7 +39,28 @@ const name = {};
 name.his = "tom";
 console.log(name.his);
 
-// *********************
+// ******************************************
+
+// Find Function
+
+var profiles = [
+  {id: 1, name: 'jed'},
+  {id: 2, name: 'elen'},
+  {id: 3, name: 'tom'}
+];
+
+var newUser = {id: 2, name: 'mike'};
+
+function people(profiles, newUser){
+	return profiles.find(function(profile){
+		return profile.id === newUser.id;
+	});
+};
+
+var result = people(profiles, newUser);
+result.name
+
+// ******************************************
 
 // *****  LOOP Function vs Recursion *****
 
