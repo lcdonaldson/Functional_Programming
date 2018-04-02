@@ -9,8 +9,8 @@ const PI = 3.14;
 const calculateArea = (radius, PI) => radius * radius * PI;
 console.log(calculateArea(3, 1));
 
-    // This should log 9 in part because we're 
-    // only logging whole numbers.
+// This should log 9 in part because we're 
+// only logging whole numbers.
 
 
 // *** The second practice is immutability ***
@@ -78,7 +78,7 @@ function sumRange(start, end, acc) {
 }
 console.log(sumRange(1, 10, 2)); // prints 57
 
-// ********** Map Function **********
+// **************** Map Function ****************
 
 var myList = [1, 2, 3, 4, 5];
 
@@ -92,7 +92,7 @@ cats.map(felines => {
     return "my pet is a " + felines + "cat.";
 });
 
-// *********** Filter **************
+// ***************** Filter ********************
 
 var numbers = [1,2,3,4,5,6,7,8,9];
 
