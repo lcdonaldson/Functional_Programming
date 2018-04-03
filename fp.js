@@ -26,7 +26,15 @@ var me = {
 me.age = me.age + 4;
 console.log(me.age)
 
-// *********************
+// ****************************
+
+const heightRequirement = 46;
+
+function canRide(height) {
+  return height >= heightRequirement;
+}
+
+// ****************************
 
 const name = "ted";
 var name = "tim";
@@ -39,7 +47,7 @@ const name = {};
 name.his = "tom";
 console.log(name.his);
 
-// ******************************************
+// ******************************
 
 // Find Function
 
