@@ -108,8 +108,14 @@ numbers.filter(function(number){
   return number > 3;
 });
 
-******************************
-    
+// *************** Reverse *********************
+
+const reverse = ([x, ...xs]) => (x) ? [...reverse(xs), x] : [];
+const array = [1,2,3,4,5];
+array.reverse();
+
+
+// ********************************************   
 function FirstFactorial(num) { 
     
     if (num < 0) { 
@@ -141,4 +147,6 @@ FirstFactorial(6);
 })();
 
 ------------------------------
+
+
 
