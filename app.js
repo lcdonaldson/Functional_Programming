@@ -21,9 +21,11 @@ function makeYellow(e) {
 const orange = Component => class extends React.Component {
     render() {
         return (
-		<img onClick = {makeBlue} src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
-		alt="orange" />
-	)
+		<div>
+			<img onClick = {makeBlue} src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
+			alt="orange" />
+		</div>
+	);
     }
 };
 export default Static;
