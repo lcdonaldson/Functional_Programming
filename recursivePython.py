@@ -18,6 +18,7 @@
 
 # +++++++++++++++++++++++++++++++++++++++++
 
+# currently when this code runs it doesn't know when to stop. It iterates over 900 times.
 houses = ["Eric's house", "Kenny's house", "Kyle's house", "Stan's house"]
 
 # Each function call represents an elf doing his work 
