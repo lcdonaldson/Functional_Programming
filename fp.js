@@ -137,7 +137,7 @@ FirstFactorial(6);
 ********************************
 
 (function(){
-    var outside = 'this can be reached from other locations';
+    let outside = 'this can be reached from other locations';
     
     function inside(){
         console.log(outside);
