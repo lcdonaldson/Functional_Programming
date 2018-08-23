@@ -88,7 +88,7 @@ console.log(sumRange(1, 10, 2)); // prints 57
 
 // **************** Map Function ****************
 
-var myList = [1, 2, 3, 4, 5];
+let myList = [1, 2, 3, 4, 5];
 
 myList.map(numbers => {
   return numbers * 2;
@@ -102,7 +102,7 @@ cats.map(felines => {
 
 // ***************** Filter ********************
 
-var numbers = [1,2,3,4,5,6,7,8,9];
+let numbers = [1,2,3,4,5,6,7,8,9];
 
 numbers.filter(function(number){
   return number > 3;
