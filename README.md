@@ -6,6 +6,7 @@
 - Immutability
 - First Class Functions
 - Pure Functions
+- Higher Order Functions
 - Recursion
 ```
 
