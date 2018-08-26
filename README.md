@@ -8,6 +8,7 @@
 - Pure Functions
 - Higher Order Functions
 - Recursion
+- Lambdas
 ```
 
 
