@@ -146,6 +146,29 @@ FirstFactorial(6);
     return inside()
 })();
 
+***********************
+      // Loops
+***********************
+	
+const prepareMeal = () => 'Spaghetti';
+
+const getMeal = (numOfServings) => {
+  const bowls = [];
+  
+  for(let servings = 1; servings <= numOfServings; servings += 1) {
+    const bowl = prepareMeal();
+    bowls.push(bowl);
+  }
+
+  return bowls;
+};
+
+
+let meal = getMeal(3)
+const letsEat = meal;
+
+console.log(letsEat);
+
 ------------------------------
 
 
