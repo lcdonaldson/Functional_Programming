@@ -171,5 +171,37 @@ console.log(letsEat);
 
 ------------------------------
 
+// ************************	
+
+// First Lambda
+
+const prepareCoke = () => 'coke';
+
+const preparePepsi = () => 'pepsi';
+
+const getTea = (pourSoda, numOfGlasses) => {
+    const sodas = [];
+
+    for (let glasses = 1; glasses <= numOfGlasses; glasses += 1) {
+        const soda = pourSoda();
+        sodas.push(soda);
+    }
+
+    return sodas;
+};
+
+let x = getTea(prepareCoke, 27);
+let y = getTea(preparePepsi, 10);
+
+const teamCoke = x;
+const teamPepsi = y;
+
+console.log(
+    teamCoke,
+    teamPepsi
+);
+
+// ***************************
+
 
 
