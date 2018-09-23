@@ -97,7 +97,7 @@ myList.map(numbers => {
 const cats = ['bengal', 'tabby', 'alley', 'manx'];
 
 cats.map(felines => {
-    return "my pet is a " + felines + "cat.";
+    return "my pet is a " + felines + " cat.";
 });
 
 // ***************** Filter ********************
