@@ -6,7 +6,9 @@
 // or arguments from outside the function
 
 const PI = 3.14;
+
 const calculateArea = (radius, PI) => radius * radius * PI;
+
 console.log(calculateArea(3, 1));
 
 // This should log 9 in part because we're 
