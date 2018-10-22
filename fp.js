@@ -1,7 +1,9 @@
 // This will be the functional programming concepts I learn 
 // in javascript. 
 
-// *** The first practice lesson is on pure functions. *** 
+// *************************************
+	// PURE FUNCTIONS
+// *************************************
 // This is a pure function because the result takes no variables
 // or arguments from outside the function
 
