@@ -108,9 +108,21 @@ cats.map(felines => {
 
 let numbers = [1,2,3,4,5,6,7,8,9];
 
-numbers.filter(function(number){
+let underThree = numbers.filter(function(number){
   return number > 3;
 });
+
+console.log(underThree);
+
+// --------------------------------------------
+
+let even = (x) => {return x % 2 === 0};
+
+let myArray = [1,2,3,4,5,6,7,8,9,10,11,12];
+
+let myEvenArr = myArray.filter(even);
+
+console.log(myEvenArr);
 
 // *************** Reverse *********************
 
