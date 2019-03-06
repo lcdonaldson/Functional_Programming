@@ -130,8 +130,22 @@ const reverse = ([x, ...xs]) => (x) ? [...reverse(xs), x] : [];
 const array = [1,2,3,4,5];
 array.reverse();
 
+// ******************************************** 
+  
+// **************** Flatten ****************
 
-// ********************************************   
+"use strict";
+var array = [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]];
+function flattenAndSort(array) {
+  let x = [].concat(...array);
+  let y = x.sort();
+  return y;
+}
+
+flattenAndSort(array);
+
+// *****************************************
+
 function FirstFactorial(num) { 
     
     if (num < 0) { 
