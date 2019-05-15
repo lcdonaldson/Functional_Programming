@@ -242,3 +242,23 @@ const capitalize = (input) => {
 	.join(' ');
 }
 
+// ***************************
+	// WORD FILTER
+// ***************************
+
+let filterWords = ["freaking", "moron", "Numb nuts"];
+
+// ignore case
+let Rx = new RegExp(filterWords.join("|"), "gi");
+
+wordFilter = (str) => {           
+    return str.replace(Rx, "****");            
+}
+
+// Examples
+document.write("Original Sentence - ");
+document.writeln("What kind of freaking moron decides to wear shorts in the snow? Numb nuts, that's who. <br/><br/>");
+    
+document.write("Replaced Sentence - ");
+document.writeln(wordFilter("What kind of freaking moron decides to wear shorts in the snow? Numb nuts, that's who."));
+
