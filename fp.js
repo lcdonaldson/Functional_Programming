@@ -124,6 +124,22 @@ let myEvenArr = myArray.filter(even);
 
 console.log(myEvenArr);
 
+// ***************** MAP + Reduce **************
+
+	function addTwoDigits(n){
+		if(n > 10 && n <= 99 && n != null){
+			console.log('good input');
+			let digits = (`${n}`).split("")
+				.map(e => parseInt(e))
+				.reduce((a, b) => a + b, 0);
+			return digits;
+		} else {
+			console.log('number is less than 10 or greater than 99, which is not allowed');
+		}
+	}
+	
+	console.log(addTwoDigits(29)); // this will equal 11
+
 // *************** Reverse *********************
 
 const reverse = ([x, ...xs]) => (x) ? [...reverse(xs), x] : [];
