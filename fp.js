@@ -139,6 +139,7 @@ console.log(myEvenArr);
 	}
 	
 	console.log(addTwoDigits(29)); // this will equal 11
+	console.log(addTwoDigits(52)); // this will equal 7
 
 // *************** Reverse *********************
 
