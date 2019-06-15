@@ -147,7 +147,19 @@ const reverse = ([x, ...xs]) => (x) ? [...reverse(xs), x] : [];
 const array = [1,2,3,4,5];
 array.reverse();
 
-// ******************************************** 
+// ************* Reduce ************* 
+
+const areParensBalanced = string => { 
+	return !string.split("").reduce((char, parens) => {
+	if(char < 0){return parens;}
+	if(char === "("){ return ++parens;}
+	if(char === ")"){ return --parens;}
+	return parens;
+	}, 0);
+};
+
+areParensBalanced("())"); // False
+areParensBalanced("((()))"); // True
   
 // **************** Flatten ****************
 
