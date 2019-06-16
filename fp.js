@@ -55,7 +55,7 @@ console.log(name.his);
 
 // Find Function
 
-var profiles = [
+let profiles = [
   {id: 1, name: 'jed'},
   {id: 2, name: 'elen'},
   {id: 3, name: 'tom'}
@@ -63,10 +63,8 @@ var profiles = [
 
 var newUser = {id: 2, name: 'mike'};
 
-function people(profiles, newUser){
-	return profiles.find(function(profile){
-		return profile.id === newUser.id;
-	});
+const people = (profiles, newUser) => {
+	return profiles.find(profile => profile.id === newUser.id);
 };
 
 var result = people(profiles, newUser);
