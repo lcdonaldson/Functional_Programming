@@ -291,3 +291,13 @@ document.writeln(phrase);
 document.write("Replaced Sentence - ");
 document.writeln(filter(phrase));
 
+
+// ******************************************
+	// OBJECT ASSIGNMENT es6
+// ******************************************
+
+let list = {a: 0};
+let first = {b: 1, c: 2};
+let last = {d: 3, e: 4};
+
+console.log(Object.assign(list, first, last)); // yields {a: 0, b: 1, c: 2, d: 3, e: 4}
