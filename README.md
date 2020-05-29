@@ -9,6 +9,7 @@
 - Higher Order Functions
 - Recursion
 - Currying
+- Partial Application
 - Lambdas
 ```
 
