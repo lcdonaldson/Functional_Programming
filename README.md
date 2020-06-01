@@ -22,3 +22,4 @@
   <li>Elm</li>
 </ul>
 <hr>
+<p> I would eventually like to learn at least one pure functional language like haskell and include some exportable code from that language in this repo. </p> 
