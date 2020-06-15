@@ -1,2 +1,7 @@
-animals = ["dog", "cat", "horse", "pig", "cow"]
-Enum.map(animals, &String.capitalize/1)
+
+defmodule MyTestScript do
+  animals = ["dog ", "cat ", "horse ", "pig ", "cow "]
+  res = Enum.map(animals, &String.capitalize/1)
+  IO.puts(res)
+end
+
