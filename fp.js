@@ -1,5 +1,4 @@
-// This will be the functional programming concepts I learn 
-// in javascript. 
+// This will show functional programming concepts in javascript. 
 
 // *************************************
 	// PURE FUNCTIONS
