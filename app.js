@@ -19,17 +19,16 @@ function makeYellow(e) {
   e.target.setAttribute('alt', 'yellow');
 }
 
-const colorBlock = Component => class extends React.Component {
-  render() {
-    return (
-			<div>
-				<p>I am glad you could see this in action</p>
-				<img onClick = { makeBlue } src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
-				alt="orange" />
-			</div>
-		);
-  }
+const colorBlock = () => {
+  return (
+    <div>
+      <p>I am glad you could see this in action</p>
+      <img onClick = { makeBlue } src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
+      alt="orange" />
+    </div>
+  );
 };
+
 export default Static;
 
 ReactDOM.render(colorBlock, document.getElementById('app'));
