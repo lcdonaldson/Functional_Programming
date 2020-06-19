@@ -25,6 +25,8 @@ const colorBlock = () => {
       <p>I am glad you could see this in action</p>
       <img onClick = { makeBlue } src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
       alt="orange" />
+      <img onClick = { makeRed } src="http://www.clker.com/cliparts/2/R/v/e/o/L/orange-square-md.png" 
+      alt="orange" />
     </div>
   );
 };
