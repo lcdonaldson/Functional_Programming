@@ -15,7 +15,7 @@
 ```
 
 
-<p> I'm going to tackle these the best I can. While most of the examples here will be in javascript for sheer simplicity, I will also some have examples in </p> 
+<p> I'm going to tackle these the best I can. While most of the examples here will be in javascript for sheer simplicity and broad adoption, I will also some have examples in </p> 
 <ul>
   <li>Elixir</li>
   <li>Python</li>
