@@ -1,6 +1,6 @@
 # Functional Programming
 
-<h3> These are some of the things I want to learn about functional programming </h3>
+<h3> These are some of the things I want to learn about in functional programming </h3>
 
 ```
 - Prototypal Inheritance
