@@ -22,4 +22,4 @@
   <li>Elm</li>
 </ul>
 <hr>
-<p> I would eventually like to learn haskell and include some exportable code from that language in this repo as well. </p> 
+<p> I would eventually like to learn some haskell and include some exportable code from that language in this repo as well. </p> 
