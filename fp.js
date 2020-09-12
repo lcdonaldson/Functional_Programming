@@ -70,8 +70,8 @@ var result = people(profiles, newUser);
 result.name
 
 // ******************************************
-
-// *****  LOOP Function vs Recursion *****
+	// LOOP Function vs Recursion
+// ******************************************
 
 // simple loop construct
 var acc = 2;
@@ -87,7 +87,9 @@ function sumRange(start, end, acc) {
 }
 console.log(sumRange(1, 10, 2)); // prints 57
 
-// **************** Map Function ****************
+// ******************************************
+	// Map Function
+// ******************************************
 
 let myList = [1, 2, 3, 4, 5];
 
@@ -101,7 +103,9 @@ cats.map(felines => {
     return "my pet is a " + felines + " cat.";
 });
 
-// ***************** Filter ********************
+// ******************************************
+	// Filter
+// ******************************************
 
 let numbers = [1,2,3,4,5,6,7,8,9];
 
@@ -121,7 +125,9 @@ let myEvenArr = myArray.filter(even);
 
 console.log(myEvenArr);
 
-// ***************** MAP + Reduce **************
+// ******************************************
+	// Map & Reduce
+// ******************************************
 
 	function addTwoDigits(n){
 		if(n > 10 && n <= 99 && n != null){
@@ -138,13 +144,13 @@ console.log(myEvenArr);
 	console.log(addTwoDigits(29)); // this will equal 11
 	console.log(addTwoDigits(52)); // this will equal 7
 
-// *************** Reverse *********************
+// *************** Reverse **********
 
 const reverse = ([x, ...xs]) => (x) ? [...reverse(xs), x] : [];
 const array = [1,2,3,4,5];
 array.reverse();
 
-// ************* Reduce ************* 
+// ************** Reduce ************* 
 
 const areParensBalanced = string => { 
 	return !string.split("").reduce((char, parens) => {
@@ -158,7 +164,9 @@ const areParensBalanced = string => {
 areParensBalanced("())"); // False
 areParensBalanced("((()))"); // True
   
-// **************** Flatten ****************
+// ******************************************
+	// Flatten
+// ******************************************
 
 "use strict";
 var array = [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]];
@@ -188,9 +196,9 @@ function FirstFactorial(num) {
 // keep this function call here 
 FirstFactorial(6); 
 
-********************************
+//********************************
     // CLOSURES
-********************************
+//********************************
 
 (function(){
     let outside = 'this can be reached from other locations';
@@ -202,9 +210,9 @@ FirstFactorial(6);
     return inside()
 })();
 
-***********************
+//***********************
       // Loops
-***********************
+//***********************
 	
 const prepareMeal = () => 'Spaghetti';
 
@@ -225,11 +233,9 @@ const letsEat = meal;
 
 console.log(letsEat);
 
-------------------------------
-
 // ************************	
-
-// First Lambda
+	// First Lambda
+// ************************
 
 const prepareCoke = () => 'coke';
 
