@@ -306,3 +306,13 @@ let first = {b: 1, c: 2};
 let last = {d: 3, e: 4};
 
 console.log(Object.assign(list, first, last)); // yields {a: 0, b: 1, c: 2, d: 3, e: 4}
+
+/*****************
+  / Currying
+/*****************
+
+let name = 'joe';
+
+((name) => {
+  console.log(`my name is ${name}`);
+})('barry')
