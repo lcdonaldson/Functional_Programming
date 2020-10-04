@@ -308,11 +308,35 @@ let last = {d: 3, e: 4};
 console.log(Object.assign(list, first, last)); // yields {a: 0, b: 1, c: 2, d: 3, e: 4}
 
 /*****************
-  / Currying
-/*****************
+     Currying
+*****************/
 
 let name = 'joe';
 
 ((name) => {
   console.log(`my name is ${name}`);
 })('barry')
+
+// my name is barry will be logged because the function is immediately invoked with barry as the argument
+
+/*--------------------------------------*/
+
+const curry = (f) => {
+  return (a => {
+    return (b => {
+      return f(a, b);
+    });
+  });
+}
+
+// usage
+const sum = (a, b) => {
+  return a + b;
+}
+
+let curriedSum = curry(sum);
+
+curriedSum(5)(3)
+
+// This will give you an 8. The function sum can be passed as an argument to the curry function and then used as needed.
+
