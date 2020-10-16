@@ -52,7 +52,7 @@ console.log(name.his);
 
 // ******************************
 
-// Find Function
+// Find Function where profile and new user have matching id's
 
 let profiles = [
   {id: 1, name: 'jed'},
