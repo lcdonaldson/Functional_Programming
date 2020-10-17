@@ -289,10 +289,12 @@ filter = (str) => {
 }
 
 	// Examples
-// Starting
+
+    // Starting
 document.write("Original Sentence - ");
 document.writeln(phrase);
-// Ending
+
+   // Ending
 document.write("Replaced Sentence - ");
 document.writeln(filter(phrase));
 
@@ -318,8 +320,6 @@ let name = 'joe';
 })('barry')
 
 // my name is barry will be logged because the function is immediately invoked with barry as the argument
-
-/*--------------------------------------*/
 
 const curry = (f) => {
   return (a => {
