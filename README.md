@@ -23,4 +23,5 @@
   <li>Javascript</li>
 </ul>
 <hr>
+<hr>
 <p> I would eventually like to learn haskell and include some exportable code examples from that language in this repo as well. </p> 
