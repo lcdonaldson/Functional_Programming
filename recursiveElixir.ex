@@ -15,7 +15,7 @@ defmodule Language do
   end
 end
 
-lang = ["elixir", "js", "css", "python", "vue"]
+lang = ["elixir", "js", "css", "python", "vue", "svelte"]
 Language.print_list(lang)
 
 #-------------------------------------------------------------------
