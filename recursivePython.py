@@ -13,7 +13,7 @@
   
   #2) this will give you 10
 
-  numbers = [1, 2, 3, 4]
+  numbers = [1, 2, 3, 4, 5]
   print(sum(numbers))
 
 # +++++++++++++++++++++++++++++++++++++++++
