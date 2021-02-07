@@ -11,9 +11,9 @@
   print(sum([5,3,8,12,1, 6]))
   
   
-  #2) this will give you 10
+  #2) this will give you ?
 
-  numbers = [1, 2, 3, 4, 5]
+  numbers = [1, 2, 3, 4, 5, 6]
   print(sum(numbers))
 
 # +++++++++++++++++++++++++++++++++++++++++
