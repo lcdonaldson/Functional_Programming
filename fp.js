@@ -309,6 +309,28 @@ let last = {d: 3, e: 4};
 
 console.log(Object.assign(list, first, last)); // yields {a: 0, b: 1, c: 2, d: 3, e: 4}
 
+// ******************************************
+	// Immutability
+// ******************************************
+
+const a = {
+    foo: 'hey',
+    bar: 'world'
+}
+
+a.bar = 'there';
+
+console.log(a.bar) // yields there
+----------------------------------------------
+const b = Object.freeze({
+    foo: 'hi',
+    bar: 'man'
+})
+
+b.foo = 'bye';
+
+console.log(b.foo) // yields hi
+
 /*****************
      Currying
 *****************/
