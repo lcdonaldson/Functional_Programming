@@ -28,6 +28,5 @@ const colorBlock = () => {
   );
 };
 
-export default Static;
 
 ReactDOM.render(colorBlock, document.getElementById('app'));
